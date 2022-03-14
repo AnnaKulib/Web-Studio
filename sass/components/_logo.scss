@@ -1,0 +1,35 @@
+.logo {
+  display: inline-block;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  text-decoration: none;
+
+  .logo-web {
+    color: $accent-color;
+  }
+}
+
+.header__logo {
+  color: $title-text-color;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+
+  color: $primary-white-color;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
